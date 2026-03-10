@@ -80,7 +80,7 @@ const Home = () => {
 
               {/* Lightweight Animated Circle */}
               <div className="h-64 w-64 lg:h-96 lg:w-96 relative z-10">
-                <div className="w-full h-full relative">
+                <div className="w-full h-full relative">  
                   {/* Core circle */}
                   <div className="absolute inset-8 rounded-full bg-linear-to-br from-blue-500 via-purple-500 to-pink-500 animate-pulse-glow flex items-center justify-center">
                     <div className="w-32 h-32 rounded-full bg-linear-to-br from-blue-400 to-purple-400 animate-pulse" />

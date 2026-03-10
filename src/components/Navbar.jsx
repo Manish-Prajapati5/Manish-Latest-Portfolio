@@ -31,9 +31,9 @@ const Navbar = ({ darkMode, toggleTheme }) => {
       <div className="container">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
+          <Link to="/" className="flex justify-center items-center  gap-3 group">
             <div className="relative">
-              <span className="material-icons text-4xl text-blue-400 transition-all duration-300 group-hover:scale-110">
+              <span className="material-icons padding-t5  text-4xl text-blue-400 transition-all duration-300 group-hover:scale-110">
                 code
               </span>
               <div className="absolute inset-0 w-9 h-9 bg-blue-400/30 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
