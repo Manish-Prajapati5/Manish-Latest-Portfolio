@@ -85,7 +85,7 @@ const Services = () => {
               </div>
 
               {/* Content */}
-              <h3 className="text-xl padding-y font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
+              <h3 className="text-xl padding-t5  font-semibold mb-3 text-white group-hover:text-blue-400 transition-colors">
                 {service.title}
               </h3>
               <p className="text-gray-400 mb-5 leading-relaxed">

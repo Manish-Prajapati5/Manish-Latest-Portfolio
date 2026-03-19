@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { useState, useEffect, useCallback, Suspense, lazy } from "react";
-import { Loader, Loader2, Loader2Icon } from "lucide-react";
+import { Loader } from "lucide-react";
 
 // Lazy load components
 const Home = lazy(() => import("./components/Home"));
